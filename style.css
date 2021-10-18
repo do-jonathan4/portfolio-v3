@@ -47,6 +47,9 @@ body {
   width: 100%;
   filter:sepia(60%) brightness(80%)
 }
+.title p {
+  text-shadow: 3px 3px #FF0000
+}
 .title {
   position: absolute;
   top: 50%;
@@ -63,6 +66,14 @@ body {
 .me {
   border-radius: 50%;
   border: 5px solid #555
+}
+
+.logoContainer .logo {
+  width: 100px;
+}
+
+.red {
+  border: 2px solid red;
 }
 @media screen and (max-width: 600px) {
   .topnav a:not(:first-child) {display: none;}
