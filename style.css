@@ -66,12 +66,18 @@ body {
   border: 5px solid #555;
   width: 300px;
 }
-
 .logo {
   width: 100px;
 }
 .app {
   width: 200px
+}
+
+.fa {
+  color: lightslategray;
+}
+.fa:hover {
+  color: dimgray
 }
 
 @media screen and (max-width: 600px) {
@@ -83,7 +89,6 @@ body {
   #about div {
     display: block;
     width: 100%;
-
   }
   .me {
   width: 200px;
