@@ -1,0 +1,23 @@
+{
+  "name": "portfolio-v3",
+  "version": "1.0.0",
+  "description": "Dev portfolio made with HTML, CSS, and a bit of JavaScript. Wanted to make a new portfiolio with better practices, mobile response and Bootstrap4. Link to [old version](https://do-jonathan4.github.io/portfolio/).",
+  "main": "index.js",
+  "scripts": {
+    "sass": "node-sass -w scss/ -o dist/css/ --recursive"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/do-jonathan4/portfolio-v3.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/do-jonathan4/portfolio-v3/issues"
+  },
+  "homepage": "https://github.com/do-jonathan4/portfolio-v3#readme",
+  "dependencies": {
+    "node-sass": "^7.0.1"
+  }
+}
