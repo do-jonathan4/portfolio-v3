@@ -22,11 +22,8 @@ for (let i of projectsArray) {
   const item = document.createElement("div")
   item.classList.add("item")
   item.innerHTML = `
-    <a href="#!">
-      <img src="${i.img}" alt="project" srcset="">
-    </a>
     <a href="${i.link}" target="_blank" class="btn-light">
-      <i class="fas fa-eye"></i> Project
+      <img src="${i.img}" alt="project" srcset="">
     </a>
     <a href="${i.git}" target="_blank" class="btn-dark">
       <i class="fab fa-github"></i> GitHub

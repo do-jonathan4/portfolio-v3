@@ -119,6 +119,9 @@ main {
       @include easeOut;
     }
   }
+  .item > a:first-child{
+    padding: 0;
+  }
 }
 
 // contact pg
