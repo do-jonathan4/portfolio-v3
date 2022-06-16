@@ -172,6 +172,14 @@ main {
   background: lighten($primary-color, 50);
   color: #333
 }
+.title {
+  display: block;
+  padding: 0.5rem 1rem;
+  border: 0;
+  margin-bottom: 0.3rem;
+  background: lighten($primary-color, 50);
+  color: set-text-color($secondary-color)
+}
 
 #main-footer {
   text-align: center;
